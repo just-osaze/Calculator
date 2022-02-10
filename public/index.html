@@ -25,26 +25,26 @@
     
         <div class="bg-[#182034] mt-6 p-8 mx-12 rounded-md">
           <div class="grid grid-cols-4 gap-2 p-">
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">7</button> 
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">8</button> 
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">9</button> 
-            <button class="bg-[#404e72] rounded-md w-16 h-16 text-xl text-center font-bold">DEL</button> 
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">4</button> 
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">5</button> 
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">6</button> 
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">+</button> 
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">1</button> 
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">2</button> 
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">3</button> 
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">-</button> 
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">.</button> 
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">0</button> 
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">/</button>
-            <button class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">*</button> 
+            <button data-number class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">7</button> 
+            <button data-number class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">8</button> 
+            <button data-number class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">9</button> 
+            <button data-delete class="bg-[#404e72] rounded-md w-16 h-16 text-xl text-center font-bold">DEL</button> 
+            <button data-number class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">4</button> 
+            <button data-number class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">5</button> 
+            <button data-number class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">6</button> 
+            <button data-operation class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">+</button> 
+            <button data-number class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">1</button> 
+            <button data-number class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">2</button> 
+            <button data-number class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">3</button> 
+            <button data-operation class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">-</button> 
+            <button data-number class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">.</button> 
+            <button data-number class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">0</button> 
+            <button data-operation class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">/</button>
+            <button data-operation class="bg-white rounded-md w-16 h-16 text-xl text-center font-bold">*</button> 
 
-          <button class="col-span-2 bg-[#404e72] rounded-md h-12 text-xl text-center font-bold">RESET</button>
+          <button data-reset class="col-span-2 bg-[#404e72] rounded-md h-12 text-xl text-center font-bold">RESET</button>
 
-          <button class="col-span-2 bg-[#93261a] shadow-md shadow-[#93261a] rounded-md h-12 text-xl text-center font-bold">=</button>
+          <button data-equal class="col-span-2 bg-[#93261a] shadow-md shadow-[#93261a] rounded-md h-12 text-xl text-center font-bold">=</button>
           </div>
            
         </div>
@@ -56,5 +56,7 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
